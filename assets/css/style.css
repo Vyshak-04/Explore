@@ -1,0 +1,366 @@
+/* ---- adding fonts ---- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+
+body {
+    background: #fafafa;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main {
+    height: calc(100vh - 66px);
+    background-image: url("../images/bg-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* ---- Navbar ---- */
+nav h3 {
+    color: black;
+}
+
+.navbar-nav li {
+    padding: 0 25px;
+
+}
+
+#navbarText {
+    justify-content: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+
+}
+
+
+.navbar {
+    background-color: white;
+
+}
+
+
+.navbar-contact a img {
+    margin: 0 12px;
+}
+
+/*------ Nav item hower ---- */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #2376f9;
+}
+
+
+
+
+
+
+
+
+/* ---- Main-screen (first section) ---- */
+
+.main-head {
+    height: calc(100vh - 66px);
+}
+
+.main-title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title p {
+    width: 70%;
+    text-align: center;
+    font-weight: 600;
+    color: #f7e5c7;
+    font-size: 20px;
+
+}
+
+
+.main-title h1 {
+    font-weight: 800;
+    font-size: 80px;
+    color: white;
+
+}
+
+
+.btn-explore {
+    margin-top: 30px;
+    background-color: #f5b200;
+    color: white;
+    padding: 8px 30px;
+}
+
+
+
+
+
+
+
+/* ---- second-section ---- */
+
+.second-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-img-1 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 80px;
+}
+
+
+
+.second-section-space {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+.second-section-maincontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: black;
+}
+
+
+#know-more {
+    border: 0;
+    padding: 8px 30px;
+    background-color: #2376f9;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---- section-three (Tour packages) ---- */
+
+.tour-package {
+    color: white;
+
+}
+
+.tour-package .package-disc {
+    color: black;
+
+}
+
+.third-main-head {
+    font-weight: 600;
+
+    color: black;
+}
+
+.packages-text {
+    padding-top: 40px;
+    margin-bottom: 5px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2376f9;
+}
+
+.packages-list {
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+
+.price {
+    background-color: white;
+    right: -15px;
+    margin-top: 8px;
+    border-radius: 6px;
+    padding-left: 8px;
+    padding-right: 5px;
+    box-shadow: 0px 4px 7px #33333375;
+}
+
+.price span {
+    font-family: fangsong;
+}
+
+.card {
+    border-radius: 5px;
+    border: none;
+}
+
+
+.pack {
+
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fourth-pack {
+    display: none;
+}
+
+.show-all {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.btn-show-packages {
+    background-color: #f5b200;
+    color: white;
+}
+
+
+
+
+
+/* ---- footer ---- */
+footer {
+    padding: 40px 0;
+    background: white;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px 0;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer ul {
+    padding: 0;
+}
+
+.more-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer h3 {
+    padding-bottom: 20px;
+}
+
+
+.pack p {
+    padding-top: 10px;
+    height: 250px;
+}
+
+.pack a {
+    width: 100%;
+}
+
+.more-links {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---- Media query (responsive) ---- */
+
+
+@media only screen and (max-width: 990px) {
+
+    .fourth-pack {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+
+    .second-content-two {
+        display: none;
+    }
+
+    .main-title h1 {
+
+        font-size: 50px;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 470px) {
+
+    .explore-details {
+        display: none;
+    }
+
+    .bottom-part {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-title h1 {
+
+        font-size: 35px;
+
+    }
+
+    .main-title p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .second-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-img-1 {
+
+        width: 270px;
+    }
+
+    .second-section-maincontent {
+
+        align-items: center;
+
+        width: 100%;
+        text-align: center;
+    }
+}
